@@ -56,7 +56,6 @@
                     <label class="custom-file-label" for="file3">Третья фотография к товару</label>
                 </div>
             </div>
-            <input type="hidden" name="_csrf" value="${_csrf.token}"/>
 
             <button type="submit" style="width: 100%" class="btn btn-dark">Добавить</button>
         </form>
@@ -68,7 +67,6 @@
                     <div class="card-top">
                         <form action="/product/delete/${product.id}" method="post">
                             <input type="hidden" name="_csrf" value="${_csrf.token}"/>
-                            <button type="submit" class="btn btn-danger m-3">
                                 Удалить
                             </button>
                         </form>

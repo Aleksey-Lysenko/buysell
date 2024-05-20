@@ -19,7 +19,6 @@
             <label for="password">Пароль</label>
             <input type="password" class="form-control" id="password" required name="password">
         </div>
-        <input type="hidden" name="_csrf" value="${_csrf.token}">
         <button type="submit" style="width: 100%" class="btn btn-dark">Зарегистрироваться</button>
     </form>
     <#if errorMessage??>

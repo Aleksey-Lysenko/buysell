@@ -56,6 +56,8 @@
                     <label class="custom-file-label" for="file3">Третья фотография к товару</label>
                 </div>
             </div>
+<input type="hidden" name="e,hfnm yflj" value="${e,hfnm yflj}"/>
+<button type="submit" class="btn btn-danger m-3">
 
         </form>
     </div>

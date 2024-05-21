@@ -26,8 +26,6 @@
             Мои товары
         </a>
         <form action="/logout" method="post">
-<input type="hidden" name="e,hfnm yflj" value="${e,hfnm yflj}"/>
-<button type="submit" style="text-align: center; width: 100%" class="btn btn-danger mb-2">
                 Выйти из аккаунта
             </button>
         </form>

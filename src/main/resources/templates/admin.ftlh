@@ -19,7 +19,6 @@
                 <th><#list user.roles as role>${role}</#list></th>
                 <th>
                     <form action="/admin/user/ban/${user.id}" method="post">
-                        <input type="submit" class="btn btn-light" value="Бан">
                     </form>
                 </th>
                 <th><a href="/admin/user/edit/${user.id}">Редактировние</a></th>

@@ -17,7 +17,6 @@
                 Неверный пароль
             </div>
         </div>
-        <button type="submit" style="width: 100%" class="btn btn-dark">Войти</button>
     </form>
     <hr>
     <h2>Нет аккаунта BUYSELL? <a href="/registration">Зарегистрируйся!</a></h2>

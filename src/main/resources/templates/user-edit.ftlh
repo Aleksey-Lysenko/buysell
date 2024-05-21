@@ -8,7 +8,6 @@
         </div>
     </#list>
     <input type="hidden" value="${user.id}" name="userId">
-    <button type="submit" class="btn btn-dark">Сохранить</button>
 </form>
 
 </@t.template>

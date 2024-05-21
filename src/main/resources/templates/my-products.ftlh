@@ -57,7 +57,6 @@
                 </div>
             </div>
 
-            <button type="submit" style="width: 100%" class="btn btn-dark">Добавить</button>
         </form>
     </div>
     <div class="card-columns">
